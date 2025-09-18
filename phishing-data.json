@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "type": "phishing",
+    "senderName": "Bank of North",
+    "senderEmail": "security@bankofnorth-login.com",
+    "subject": "Immediate action required: verify your account",
+    "date": "2025-09-01",
+    "logo": "images/bank_logo.png",
+    "bodyHtml": "<p>Dear Customer,</p><p>We detected unusual activity on your account. <strong>Please verify your identity</strong> immediately to avoid suspension.</p><p><a class='sim-link' data-href='https://malicious.example/login' href='#'>Verify your account</a></p><p>Thank you,<br/>Bank Security Team</p>",
+    "links": [
+      {
+        "text": "Verify your account",
+        "display": "https://bankofnorth.com/verify",
+        "href": "https://malicious.example/login"
+      }
+    ],
+    "attachments": [
+      {
+        "name": "invoice_0925.pdf",
+        "previewImage": "images/fake_invoice_preview.png",
+        "type": "pdf"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "legit",
+    "senderName": "Acme Corp HR",
+    "senderEmail": "hr@acmecorp.com",
+    "subject": "Your payslip is available",
+    "date": "2025-09-10",
+    "logo": "images/company_logo.png",
+    "bodyHtml": "<p>Hi Alex,</p><p>Your September payslip is ready. You can securely download it from the HR portal.</p><p><a class='sim-link' data-href='https://portal.acmecorp.com/payslip' href='#'>Open HR Portal</a></p>",
+    "links": [
+      {
+        "text": "Open HR Portal",
+        "display": "https://portal.acmecorp.com/payslip",
+        "href": "https://portal.acmecorp.com/payslip"
+      }
+    ],
+    "attachments": []
+  },
+  {
+    "id": 3,
+    "type": "phishing",
+    "senderName": "IT Support",
+    "senderEmail": "it-support@companyupdates-secure.com",
+    "subject": "Urgent: update your credentials",
+    "date": "2025-08-30",
+    "logo": "images/user_avatar.png",
+    "bodyHtml": "<p>Hello,</p><p>We need you to update your credentials due to a security upgrade. Click the safe button below to start.</p><p><a class='sim-link' data-href='http://192.168.0.100/reset' href='#'>Update credentials</a></p>",
+    "links": [
+      {
+        "text": "Update credentials",
+        "display": "https://company-it.example/update",
+        "href": "http://192.168.0.100/reset"
+      }
+    ],
+    "attachments": []
+  }
+]

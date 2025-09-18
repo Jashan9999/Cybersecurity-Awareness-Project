@@ -1,0 +1,36 @@
+ <html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Cybersecurity Awareness</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cybersecurity Awareness Training</h1>
+    <nav>
+      <button id="btn-tips">Safe Browsing Tips</button>
+      <button id="btn-sim">Phishing Simulation</button>
+      <button id="btn-quiz">Quiz</button>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- modules render here -->
+  </main>
+
+  <!-- Email viewer modal -->
+  <div id="emailModal" class="modal hidden" role="dialog" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="close-modal" id="closeModal">✕</button>
+      <div id="emailHeader" class="email-header"></div>
+      <div id="emailBody" class="email-body"></div>
+      <div id="emailFooter" class="email-footer"></div>
+    </div>
+  </div>
+
+  <div id="tooltip" class="tooltip hidden"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
